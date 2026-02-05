@@ -1,16 +1,29 @@
 <script>
-	import { Header, HeaderNav, HeaderNavItem } from 'carbon-components-svelte';
+	import { Header, HeaderNav, HeaderNavItem, OverflowMenu, OverflowMenuItem } from 'carbon-components-svelte';
 </script>
 
 <header
 	aria-label="UNICAL Hub"
-	class="flex items-center justify-between px-6 py-2 border-b border-gray-200"
+	class="flex items-center justify-between px-3 sm:px-6 py-2 border-b border-gray-200"
 >
 	<div class="flex items-center">
 		<img src="/unical-logo.jpeg" alt="" class="h-16 w-20 object-contain mr-4" />
-		<a href="/" class="text-3xl font-bold">
+		<a href="/" class="text-lg sm:text-3xl font-bold">
 			<span class="font-bold text-blue-600">UNICAL IDID</span> Hub
 		</a>
+	</div>
+
+	<div class="lg:hidden">
+		<OverflowMenu flipped>
+	  <OverflowMenuItem text="Manage credentials" />
+	  <OverflowMenuItem
+		href="https://cloud.ibm.com/docs/api-gateway/"
+		target="_blank"
+		text="API documentation"
+	  />
+	  <OverflowMenuItem danger text="Delete service" />
+	</OverflowMenu>
+
 	</div>
 
 	<ul
