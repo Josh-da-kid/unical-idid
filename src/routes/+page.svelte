@@ -240,7 +240,7 @@
 		<p class="text-lg">Explore our comprehensive academic and research infrastructure</p>
 	</div>
 
-	<section class="grid sm:grid-cols-2 lg:grid-cols-4 space-y-5">
+	<section class="grid sm:grid-cols-2 lg:grid-cols-4 space-y-5 max-w-7xl mx-auto">
 		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHtumyPFPD5JHePUORdC4Te5lj_mG_jSsDQ&s"
@@ -472,7 +472,7 @@
 	<h1 class="text-4xl font-semibold">University News & Notices</h1>
 	<p class="text-lg lg:text-xl">Stay informed with the latest news and events from UNICAL</p>
 
-	<section class="grid lg:grid-cols-2 gap-12 justify-center mx-auto pt-8 w-full">
+	<section class="grid lg:grid-cols-2 gap-12 justify-center mx-auto pt-8 w-full max-w-7xl">
 		<div class="col-span-full flex justify-between items-center w-full">
 			<h2 class="text-2xl md:text-4xl font-semibold text-blue-600">Campus Updates</h2>
 			<a
@@ -527,7 +527,7 @@
 
 <!-- featured events -->
 <section class="justify-center text-center space-y-4 px-6 py-12 bg-gray-100/50 mx-auto my-12">
-	<section class="grid lg:grid-cols-2 gap-12 justify-center mx-auto pt-8 w-full">
+	<section class="grid lg:grid-cols-2 gap-12 justify-center mx-auto pt-8 w-full max-w-7xl">
 		<div class="col-span-full flex justify-between items-center w-full">
 			<h2 class="text-3xl md:text-4xl font-bold">Featured events</h2>
 			<a
