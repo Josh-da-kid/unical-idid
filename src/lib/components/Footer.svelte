@@ -4,7 +4,7 @@
 		<!-- Brand -->
 		<div class="flex flex-col items-center sm:items-start">
 			<h3 class="text-white text-lg md:text-2xl font-bold mb-2">
-				<span class="text-blue-500">UNICAL</span> hub
+				<span class="text-blue-500">UNICAL IDID </span> hub
 			</h3>
 			<p class="text-center sm:text-left text-gray-300">
 				Transforming education across Nigeria through innovative radio-powered digital learning that
@@ -185,6 +185,6 @@
 	</div>
 
 	<div class="text-center text-gray-400 text-sm py-4">
-		&copy; 2025 UNICAL EMNet. All rights reserved.
+		&copy; 2025 UNICAL IDID Hub. All rights reserved.
 	</div>
 </footer>
