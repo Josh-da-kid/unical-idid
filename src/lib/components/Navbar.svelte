@@ -1,4 +1,5 @@
 <script>
+	import MenuIcon from '$lib/icons/MenuIcon.svelte';
 	import {
 		Header,
 		HeaderNav,
@@ -6,6 +7,7 @@
 		OverflowMenu,
 		OverflowMenuItem
 	} from 'carbon-components-svelte';
+	import { Add } from 'carbon-icons-svelte';
 </script>
 
 <header
@@ -20,7 +22,7 @@
 	</div>
 
 	<div class="lg:hidden">
-		<OverflowMenu flipped>
+		<OverflowMenu flipped icon={MenuIcon}>
 			<OverflowMenuItem text="Manage credentials" />
 			<OverflowMenuItem
 				href="https://cloud.ibm.com/docs/api-gateway/"

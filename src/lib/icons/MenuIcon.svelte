@@ -1,0 +1,16 @@
+<script>
+	export let size = 24;
+</script>
+
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width={size}
+	height={size}
+	viewBox="0 0 24 24"
+	fill="none"
+	stroke="currentColor"
+	stroke-linecap="round"
+	stroke-width="1.5"
+>
+	<path d="M4 7h3m13 0h-9m9 10h-3M4 17h9m-9-5h16" />
+</svg>
