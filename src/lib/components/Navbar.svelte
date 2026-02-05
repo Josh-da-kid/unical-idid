@@ -23,13 +23,14 @@
 
 	<div class="lg:hidden">
 		<OverflowMenu flipped icon={MenuIcon}>
-			<OverflowMenuItem text="Manage credentials" />
-			<OverflowMenuItem
-				href="https://cloud.ibm.com/docs/api-gateway/"
-				target="_blank"
-				text="API documentation"
-			/>
-			<OverflowMenuItem danger text="Delete service" />
+			<OverflowMenuItem href="#" text="Home" />
+			<OverflowMenuItem href="/about-us" text="About Us" />
+			<OverflowMenuItem href="/services" text="Services" />
+			<OverflowMenuItem href="/administration" text="Administration" />
+			<OverflowMenuItem href="/academics" text="Academics" />
+			<OverflowMenuItem href="/news-events" text="News & Events" />
+			<OverflowMenuItem href="/login" text="Login" />
+			<OverflowMenuItem href="/create-account" text="Create Account" />
 		</OverflowMenu>
 	</div>
 
@@ -37,12 +38,12 @@
 		aria-label="Main navigation"
 		class="hidden lg:flex space-x-6 text-lg font-semibold text-gray-600"
 	>
-		<li><a class="hover:text-blue-600" href="#">Home</a></li>
-		<li><a class="hover:text-blue-600" href="#">About Us</a></li>
-		<li><a class="hover:text-blue-600" href="#">Services</a></li>
-		<li><a class="hover:text-blue-600" href="#">Administration</a></li>
-		<li><a class="hover:text-blue-600" href="#">Academics</a></li>
-		<li><a class="hover:text-blue-600" href="#">News & Events</a></li>
+		<li><a class="hover:text-blue-600" href="/">Home</a></li>
+		<li><a class="hover:text-blue-600" href="/about-us">About Us</a></li>
+		<li><a class="hover:text-blue-600" href="/services">Services</a></li>
+		<li><a class="hover:text-blue-600" href="/administration">Administration</a></li>
+		<li><a class="hover:text-blue-600" href="/academics">Academics</a></li>
+		<li><a class="hover:text-blue-600" href="/news-events">News & Events</a></li>
 	</ul>
 
 	<div class="font-semibold space-x-4 text-lg hidden lg:flex">
