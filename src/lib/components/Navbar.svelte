@@ -1,5 +1,11 @@
 <script>
-	import { Header, HeaderNav, HeaderNavItem, OverflowMenu, OverflowMenuItem } from 'carbon-components-svelte';
+	import {
+		Header,
+		HeaderNav,
+		HeaderNavItem,
+		OverflowMenu,
+		OverflowMenuItem
+	} from 'carbon-components-svelte';
 </script>
 
 <header
@@ -15,15 +21,14 @@
 
 	<div class="lg:hidden">
 		<OverflowMenu flipped>
-	  <OverflowMenuItem text="Manage credentials" />
-	  <OverflowMenuItem
-		href="https://cloud.ibm.com/docs/api-gateway/"
-		target="_blank"
-		text="API documentation"
-	  />
-	  <OverflowMenuItem danger text="Delete service" />
-	</OverflowMenu>
-
+			<OverflowMenuItem text="Manage credentials" />
+			<OverflowMenuItem
+				href="https://cloud.ibm.com/docs/api-gateway/"
+				target="_blank"
+				text="API documentation"
+			/>
+			<OverflowMenuItem danger text="Delete service" />
+		</OverflowMenu>
 	</div>
 
 	<ul

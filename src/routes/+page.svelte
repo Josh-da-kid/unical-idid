@@ -536,7 +536,7 @@
 		</div>
 		{#each events as event}
 			<div class="sm:flex text-start gap-6 items-center shadow-md">
-				<img src={event.img} alt={event.date} class="w-[300px] h-[320px] object-cover" />
+				<img src={event.img} alt={event.date} class="sm:w-[300px] h-[320px] object-cover" />
 				<div class="flex flex-col space-y-4 p-3">
 					<h3 class="font-semibold text-lg lg:text-2xl">{@html event.date}</h3>
 					<p class="text-md">{@html event.description}</p>
