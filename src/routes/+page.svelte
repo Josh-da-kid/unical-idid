@@ -238,7 +238,7 @@
 		<p class="text-lg">Explore our comprehensive academic and research infrastructure</p>
 	</div>
 
-	<section class="grid sm:grid-cols-2 lg:grid-cols-4">
+	<section class="grid sm:grid-cols-2 lg:grid-cols-4 space-y-5">
 		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHtumyPFPD5JHePUORdC4Te5lj_mG_jSsDQ&s"
@@ -481,7 +481,7 @@
 		</div>
 		{#each news as news}
 			<div class="md:flex text-start gap-6 items-center shadow-md">
-				<img src={news.img} alt={news.heading} class="w-[300px] h-[320px] object-cover" />
+				<img src={news.img} alt={news.heading} class="w-full sm:w-[300px] h-[320px] object-cover" />
 				<div class="flex flex-col space-y-4 p-3">
 					<h3 class="font-semibold text-lg lg:text-2xl">{news.heading}</h3>
 					<p class="text-md">{news.description}</p>
@@ -536,7 +536,7 @@
 		</div>
 		{#each events as event}
 			<div class="sm:flex text-start gap-6 items-center shadow-md">
-				<img src={event.img} alt={event.date} class="sm:w-[300px] h-[320px] object-cover" />
+				<img src={event.img} alt={event.date} class="w-full sm:w-[300px] h-[320px] object-cover" />
 				<div class="flex flex-col space-y-4 p-3">
 					<h3 class="font-semibold text-lg lg:text-2xl">{@html event.date}</h3>
 					<p class="text-md">{@html event.description}</p>
