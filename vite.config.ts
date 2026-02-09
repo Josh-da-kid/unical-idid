@@ -5,7 +5,7 @@ import { sveltekit } from '@sveltejs/kit/vite';
 export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
-		allowedHosts: ['7581-2605-59c1-1966-2e10-7859-95f3-4901-9525.ngrok-free.app']
+		allowedHosts: ['73fe-98-97-79-71.ngrok-free.app']
 	},
 	test: {
 		expect: { requireAssertions: true },
