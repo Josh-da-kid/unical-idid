@@ -12,7 +12,7 @@
 </section>
 
 <section class="bg-white py-14">
-	<div class="max-w-6xl mx-auto px-4 lg:px-10">
+	<div class="max-w-6xl mx-auto px-6 lg:px-10">
 		<!-- Grid -->
 		<div class="grid md:grid-cols-2 gap-10">
 			{#each news as post}
