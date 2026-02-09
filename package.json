@@ -44,8 +44,10 @@
 		"vitest-browser-svelte": "^2.0.2"
 	},
 	"dependencies": {
+		"@fortawesome/free-solid-svg-icons": "^7.1.0",
 		"carbon-components-svelte": "^0.99.3",
 		"carbon-icons-svelte": "^13.8.0",
-		"sass": "^1.97.3"
+		"sass": "^1.97.3",
+		"svelte-fa": "^4.0.4"
 	}
 }
