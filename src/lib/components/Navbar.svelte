@@ -54,7 +54,7 @@
 
 <header
 	aria-label="UNICAL Hub"
-	class="flex items-center justify-between px-3 sm:px-6 py-2 border-b border-gray-200"
+	class="flex items-center justify-between max-w-7xl mx-auto px-3 sm:px-6 py-2 border-b border-gray-200"
 >
 	<div class="flex items-center">
 		<img src="/unical-logo.jpeg" alt="" class="h-16 w-20 object-contain mr-4" />
