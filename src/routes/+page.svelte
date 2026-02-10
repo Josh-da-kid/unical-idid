@@ -41,8 +41,6 @@
 	];
 </script>
 
-
-
 <section
 	class="relative h-[calc(100vh-4rem)] bg-cover bg-center"
 	style="background-image: url('/images.jpeg');"

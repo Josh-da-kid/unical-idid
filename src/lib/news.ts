@@ -32,7 +32,7 @@ export const news = [
 
 export const events = [
     {
-        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtbYsqOthiywEwHDp6Hz_qSJMgztuskzv0-w&s',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiwBqBY5p_mU0Xfde3-57zIHHWur5eDWYDLw&s',
         date: '26 <br> November 2025',
         description: 'NUGA26 <br> University of Calabar proudly hosts the 26th Nigeria Universities Games Association (NUGA) Games. <br> <strong>Hall of Fame</strong>',
         link: {
