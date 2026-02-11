@@ -238,8 +238,8 @@
 		<p class="text-lg">Explore our comprehensive academic and research infrastructure</p>
 	</div>
 
-	<section class="grid sm:grid-cols-2 lg:grid-cols-4 space-y-5 max-w-7xl mx-auto">
-		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
+	<section class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-7xl mx-auto">
+		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-full">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDHtumyPFPD5JHePUORdC4Te5lj_mG_jSsDQ&s"
 				alt=""
@@ -289,7 +289,7 @@
 			</div>
 		</div>
 
-		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
+		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-full">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1LKmFG6CM0OQ2yx92vsyx5NLiG3tUJLERIw&s"
 				alt=""
@@ -339,7 +339,7 @@
 			</div>
 		</div>
 
-		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
+		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-full">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVylJrbsgRnU9X-X0YdJGB9Alf9wpegkdWtw&s"
 				alt=""
@@ -389,7 +389,7 @@
 			</div>
 		</div>
 
-		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-fit">
+		<div class="p-4 flex flex-col items-center space-y-4 text-start mx-auto shadow-xl w-full">
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyMO2fuyjikP09AWCdLqN5BMn0JJokSNlTuA&s"
 				alt=""
