@@ -26,18 +26,18 @@
 		</h2>
 	</div>
 
-	<div class="text-xl text-gray-500">
-		<p>
+	<div class="text-lg sm:text-xl text-gray-500">
+		<div>
 			We foster dialogue, analyze emerging trends, and develop <br /> strategies to enhance the
 			UNICAL Hub experience. We are <br /> committed to excellence in service.
-		</p>
+		</div>
 
-		<p class="mt-6">
+		<div class="mt-6">
 			Through cutting-edge technology and dedicated staff, we've <br /> created a platform where
 			every voice matters, stories connect <br /> us, and communities flourish. Our goal is to
 			deliver exceptional <br /> content, encourage active participation, and build strong <br /> relationships
 			within and beyond the campus.
-		</p>
+		</div>
 	</div>
 </section>
 
