@@ -26,12 +26,13 @@
 	</div>
 
 	<div
-		class="text-xl text-gray-500 flex flex-col gap-4 justify-center items-center mx-auto place-self-center"
+		class="text-xl text-start text-gray-500 flex flex-col gap-4 justify-center mx-auto place-self-center"
 	>
+		<p>Your gateway to seamless digital identity and access management at UNICAL.</p>
+
 		<p>
-			Your gateway to seamless digital identity and access management at UNICAL. <br />
-			We provide state-of-the-art solutions that ensure protected and intuitive access throughout the
-			campus. <br />
+			We provide state-of-the-art solutions that ensure protected and intuitive access throughout
+			the campus.
 		</p>
 
 		<p>
