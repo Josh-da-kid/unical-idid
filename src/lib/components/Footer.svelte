@@ -4,7 +4,7 @@
 		<!-- Brand -->
 		<div class="col-span-2 md:col-span-4 lg:col-span-2 flex flex-col items-center sm:items-start">
 			<h3 class="text-white text-lg md:text-2xl font-bold mb-2">
-				<span class="text-blue-500">UNICAL IDID </span> hub
+				<span class="text-blue-500">UNICAL IDID </span> Hub
 			</h3>
 			<p class="text-center sm:text-left text-gray-300">
 				Transforming education across Nigeria through innovative radio-powered digital learning that

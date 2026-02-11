@@ -1,8 +1,13 @@
-<script>
+<script lang="ts">
 	import MenuIcon from '$lib/icons/MenuIcon.svelte';
 	import { slide } from 'svelte/transition';
 	import { Add } from 'carbon-icons-svelte';
 	import Dropdown from './Dropdown.svelte';
+	import { page } from '$app/state';
+
+	function isActive(path: any) {
+		return page.url.pathname === path;
+	}
 
 	let isMobileMenuOpen = false;
 	let expandedMobileSections = {};
@@ -76,12 +81,20 @@
 			class="absolute left-0 top-16 z-50 flex w-full flex-col space-y-4 border-t border-gray-200 bg-white p-4 shadow-lg lg:hidden"
 			transition:slide={{ duration: 300 }}
 		>
-			<a href="/" class="font-semibold text-gray-700" on:click={toggleMobileMenu}>Home</a>
-			<a href="/about-us" class="font-semibold text-gray-700" on:click={toggleMobileMenu}
-				>About Us</a
+			<a
+				href="/"
+				class="font-semibold text-gray-700 {isActive('/') ? 'text-blue-600' : ''}"
+				on:click={toggleMobileMenu}>Home</a
 			>
-			<a href="/services" class="font-semibold text-gray-700" on:click={toggleMobileMenu}
-				>Services</a
+			<a
+				href="/about-us"
+				class="font-semibold text-gray-700 {isActive('/about-us') ? 'text-blue-600' : ''}"
+				on:click={toggleMobileMenu}>About Us</a
+			>
+			<a
+				href="/services"
+				class="font-semibold text-gray-700 {isActive('/services') ? 'text-blue-600' : ''}"
+				on:click={toggleMobileMenu}>Services</a
 			>
 
 			<!-- Mobile Academics Accordion -->
@@ -139,11 +152,11 @@
 				>News & Events</a
 			>
 			<div class="flex flex-col space-y-3 border-t border-gray-200 pt-4">
-				<a href="/login" class="font-semibold text-blue-600" on:click={toggleMobileMenu}>Login</a>
+				<!-- <a href="/login" class="font-semibold text-blue-600" on:click={toggleMobileMenu}>Login</a> -->
 				<a
 					href="/create-account"
 					class="rounded bg-blue-600 py-2 text-center font-semibold text-white"
-					on:click={toggleMobileMenu}>Create Account</a
+					on:click={toggleMobileMenu}>Login</a
 				>
 			</div>
 		</div>
@@ -153,20 +166,33 @@
 		aria-label="Main navigation"
 		class="hidden lg:flex space-x-6 text-lg font-semibold text-gray-600"
 	>
-		<li><a class="hover:text-blue-600" href="/">Home</a></li>
-		<li><a class="hover:text-blue-600" href="/about-us">About Us</a></li>
-		<li><a class="hover:text-blue-600" href="/services">Services</a></li>
+		<li><a class="hover:text-blue-600 {isActive('/') ? 'text-blue-600' : ''}" href="/">Home</a></li>
+		<li>
+			<a class="hover:text-blue-600 {isActive('/about-us') ? 'text-blue-600' : ''}" href="/about-us"
+				>About Us</a
+			>
+		</li>
+		<li>
+			<a class="hover:text-blue-600 {isActive('/services') ? 'text-blue-600' : ''}" href="/services"
+				>Services</a
+			>
+		</li>
 		<!-- <li><a class="hover:text-blue-600" href="/administration">Administration</a></li> -->
 		<Dropdown dropdownId="nav-1" selectedId="0" items={academicsItems} />
 		<!-- <li><a class="hover:text-blue-600" href="/academics">Academics</a></li> -->
-		<li><a class="hover:text-blue-600" href="/news-events">News & Events</a></li>
+		<li>
+			<a
+				class="hover:text-blue-600 {isActive('/news-events') ? 'text-blue-600' : ''}"
+				href="/news-events">News & Events</a
+			>
+		</li>
 	</ul>
 
 	<div class="font-semibold space-x-4 text-lg hidden lg:flex">
-		<button class="text-blue-500 hover:scale-105 duration-300 transition-transform">Login</button>
+		<!-- <button class="text-blue-500 hover:scale-105 duration-300 transition-transform">Login</button> -->
 		<button
-			class="bg-blue-500 px-3 py-2 text-white hover:bg-blue-600 hover:scale-105 duration-300 transition-transform"
-			>Create Account</button
+			class="bg-blue-500 px-8 py-2 text-white hover:bg-blue-600 hover:scale-105 duration-300 transition-transform"
+			>Login</button
 		>
 	</div>
 </header>

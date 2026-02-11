@@ -19,9 +19,10 @@
 </section>
 
 <section class="md:flex gap-8 justify-center items-start px-6 py-12 mx-auto max-w-6xl">
-	<div class="py-8">
+	<div class="py-6 justify-center items-center flex mx-auto place-self-center">
 		<h2 class="font-semibold text-3xl md:text-4xl">
-			We are here to connect and <br /> empower the UNICAL <br />community.
+			We are here to connect and <br class="hidden md:block" /> empower the UNICAL
+			<br class="hidden md:block" />community.
 		</h2>
 	</div>
 
