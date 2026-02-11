@@ -177,7 +177,6 @@
 				>Services</a
 			>
 		</li>
-		<!-- <li><a class="hover:text-blue-600" href="/administration">Administration</a></li> -->
 		<Dropdown dropdownId="nav-1" selectedId="0" items={academicsItems} />
 		<!-- <li><a class="hover:text-blue-600" href="/academics">Academics</a></li> -->
 		<li>
