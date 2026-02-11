@@ -1,11 +1,12 @@
 <script>
 	import PageLayout from '$lib/components/PageLayout.svelte';
-	
+
 	const features = [
 		{
 			icon: '🌊',
 			title: 'Marine Biology',
-			description: 'Study of marine ecosystems, biodiversity, and aquatic life along Nigeria's coast.'
+			description:
+				"Study of marine ecosystems, biodiversity, and aquatic life along Nigeria's coast."
 		},
 		{
 			icon: '🐟',
