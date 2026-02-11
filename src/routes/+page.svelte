@@ -7,7 +7,7 @@
 	const services = [
 		{
 			img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBFtPogRcJSPmgzirUEOGeNfb7_CoFIus0qg&s',
-			title: 'Identify & Biometric',
+			title: 'Identity & Biometric',
 			description:
 				'Leveraging state-of-the-art face verification, UNICAL IDID <br> ensures protected and intuitive access throughout the campus. <br>  Secure your sensitive information and enjoy an efficient, seamless <br>  interaction.',
 			icon: 'identify-biometric',
@@ -18,7 +18,7 @@
 		},
 		{
 			img: 'https://media.istockphoto.com/id/1220629405/photo/man-holding-light-bulbs-ideas-of-new-ideas-with-innovative-technology-and-creativity.jpg?s=612x612&w=0&k=20&c=QtFDsJUkcTEFmJ94YliS9UjtobZM-mBdR2Wue4sL6qc=',
-			title: 'Baams',
+			title: 'BAAMS',
 			description:
 				'Leveraging state-of-the-art face verification, UNICAL IDID <br> ensures protected and intuitive access throughout the campus. <br>  Secure your sensitive information and enjoy an efficient, seamless <br>  interaction.',
 			icon: 'baams',
