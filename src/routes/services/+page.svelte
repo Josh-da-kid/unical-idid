@@ -26,13 +26,13 @@
 	</div>
 
 	<div class="text-xl text-gray-500">
-		Your gateway to seamless digital identity and access management at UNICAL. <br />
-		We provide state-of-the-art solutions that ensure protected and intuitive <br />
-		access throughout the campus. <br />
+		We are committed to delivering excellence in digital service delivery. <br />
+		Our platform integrates advanced technologies that ensure secure, reliable, <br />
+		and intuitive access to university resources. <br />
 
-		From secure biometric verification to real-time communication platforms, <br />
-		our services are designed to enhance your academic experience and keep <br />
-		you connected with the university community.
+		Through innovative solutions and dedicated support, we create an ecosystem <br />
+		where every member of the UNICAL community can thrive, collaborate, and <br />
+		achieve their full potential with ease and confidence.
 	</div>
 </section>
 
