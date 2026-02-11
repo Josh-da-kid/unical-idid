@@ -19,20 +19,26 @@
 </section>
 
 <section class="md:flex gap-8 justify-center items-start px-6 py-12 mx-auto max-w-6xl">
-	<div class="py-6 justify-center items-center flex mx-auto place-self-center">
+	<div class="py-6 justify-center items-center flex mx-auto place-self-center w-full">
 		<h2 class="font-semibold text-3xl md:text-4xl">
 			Comprehensive Digital Services for the<br class="hidden md:block" />UNICAL Community.
 		</h2>
 	</div>
 
-	<div class="text-xl text-gray-500">
-		We are committed to delivering excellence in digital service delivery. <br />
-		Our platform integrates advanced technologies that ensure secure, reliable, <br />
-		and intuitive access to university resources. <br />
+	<div
+		class="text-xl text-gray-500 flex flex-col gap-4 justify-center items-center mx-auto place-self-center"
+	>
+		<p>
+			Your gateway to seamless digital identity and access management at UNICAL. <br />
+			We provide state-of-the-art solutions that ensure protected and intuitive access throughout the
+			campus. <br />
+		</p>
 
-		Through innovative solutions and dedicated support, we create an ecosystem <br />
-		where every member of the UNICAL community can thrive, collaborate, and <br />
-		achieve their full potential with ease and confidence.
+		<p>
+			From secure biometric verification to real-time communication platforms, our services are
+			designed to enhance your academic experience and keep you connected with the university
+			community.
+		</p>
 	</div>
 </section>
 
