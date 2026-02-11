@@ -11,8 +11,8 @@
 	</p>
 	<div class="w-full items-center flex justify-center">
 		<img
-			src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&h=600&fit=crop"
-			alt="UNICAL Digital Services"
+			src="https://www.shutterstock.com/image-photo/teamwork-team-community-holding-hands-600nw-2363785805.jpg"
+			alt="UNICAL Services"
 			class="w-full h-auto"
 		/>
 	</div>
@@ -37,82 +37,70 @@
 </section>
 
 <section class="items-center justify-center mx-auto px-6 py-20 bg-gray-100/50">
-	<div class="grid lg:grid-cols-2 gap-14 items-start max-w-7xl mx-auto">
-		<!-- LEFT: Image Grid -->
-		<div class="grid grid-cols-2 gap-8">
-			<div class="flex flex-col gap-4">
-				<img
-					src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&h=400&fit=crop"
-					alt="Biometric Security Technology"
-					class="rounded-xl object-cover h-64 w-full"
-				/>
+	<div class="max-w-7xl mx-auto space-y-16">
+		<h2 class="text-4xl lg:text-5xl font-semibold text-gray-900 leading-tight text-center">
+			UNICAL IDID Digital Services.
+		</h2>
 
-				<img
-					src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop"
-					alt="Academic Management System"
-					class="rounded-xl object-cover h-64 w-full"
-				/>
-
-				<img
-					src="https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop"
-					alt="University Communication Platform"
-					class="rounded-xl object-cover h-64 w-full"
-				/>
+		<!-- Service 1: Identity & Biometric -->
+		<div class="grid lg:grid-cols-2 gap-14 items-center">
+			<div class="order-2 lg:order-1 space-y-6">
+				<h3 class="text-3xl font-semibold text-blue-600">Identity & Biometric</h3>
+				<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
+					Leveraging state-of-the-art face verification, UNICAL IDID <br />
+					ensures protected and intuitive access throughout the campus. <br />
+					Secure your sensitive information and enjoy an efficient, seamless <br />
+					interaction.
+				</p>
+				<Button href="/identify-biometric">Access</Button>
 			</div>
-
-			<div class="flex flex-col gap-4 mt-12">
+			<div class="order-1 lg:order-2">
 				<img
-					src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=600&h=400&fit=crop"
-					alt="Digital Campus Access"
-					class="rounded-xl object-cover h-64 w-full"
-				/>
-
-				<img
-					src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop"
-					alt="Student Online Services"
-					class="rounded-xl object-cover h-64 w-full"
-				/>
-
-				<img
-					src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop"
-					alt="Campus Technology Hub"
-					class="rounded-xl object-cover h-64 w-full"
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBFtPogRcJSPmgzirUEOGeNfb7_CoFIus0qg&s"
+					alt="Identity and Biometric Service"
+					class="rounded-xl object-cover h-80 w-full"
 				/>
 			</div>
 		</div>
 
-		<!-- RIGHT: Content -->
-		<div class="space-y-8">
-			<h2 class="text-4xl lg:text-5xl font-semibold text-gray-900 leading-tight">
-				UNICAL IDID<br />
-				Digital Services.
-			</h2>
+		<!-- Service 2: BAAMS -->
+		<div class="grid lg:grid-cols-2 gap-14 items-center">
+			<div>
+				<img
+					src="https://media.istockphoto.com/id/1220629405/photo/man-holding-light-bulbs-ideas-of-new-ideas-with-innovative-technology-and-creativity.jpg?s=612x612&w=0&k=20&c=QtFDsJUkcTEFmJ94YliS9UjtobZM-mBdR2Wue4sL6qc="
+					alt="BAAMS Service"
+					class="rounded-xl object-cover h-80 w-full"
+				/>
+			</div>
+			<div class="space-y-6">
+				<h3 class="text-3xl font-semibold text-blue-600">BAAMS</h3>
+				<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
+					Business and Academic Management System - A comprehensive <br />
+					platform for managing academic records, course registrations, <br />
+					and administrative processes with cutting-edge technology.
+				</p>
+				<Button href="/baams">Access</Button>
+			</div>
+		</div>
 
-			<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
-				Leveraging state-of-the-art face verification, UNICAL IDID ensures protected and intuitive
-				access throughout the campus. Secure your sensitive information and enjoy an efficient,
-				seamless interaction.
-			</p>
-
-			<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
-				Business and Academic Management System - A comprehensive platform for managing academic
-				records, course registrations, and administrative processes with cutting-edge technology.
-			</p>
-
-			<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
-				Stay connected with ease using UNICAL Messenger, your go-to communication platform for
-				real-time updates, group discussions, and direct messaging within the university community.
-			</p>
-
-			<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
-				We envision a future where your digital experience grows beyond expectations. Our dedication
-				to innovation ensures we remain at the forefront, providing top-tier digital services.
-			</p>
-
-			<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
-				Our modern resources, dedicated team, and focus on excellence ensure every interaction
-				reflects quality, security, and a deep understanding of the UNICAL community needs.
-			</p>
+		<!-- Service 3: UNICAL Messenger -->
+		<div class="grid lg:grid-cols-2 gap-14 items-center">
+			<div class="order-2 lg:order-1 space-y-6">
+				<h3 class="text-3xl font-semibold text-blue-600">UNICAL Messenger</h3>
+				<p class="text-gray-600 text-lg sm:text-xl leading-relaxed">
+					Stay connected with ease using UNICAL Messenger, your go-to <br />
+					communication platform for real-time updates, group discussions, <br />
+					and direct messaging within the university community.
+				</p>
+				<Button href="/unical-messenger">Access</Button>
+			</div>
+			<div class="order-1 lg:order-2">
+				<img
+					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9I9WoATXpTSOa2A6k2jPMKiRT1rDq5smFug&s"
+					alt="UNICAL Messenger"
+					class="rounded-xl object-cover h-80 w-full"
+				/>
+			</div>
 		</div>
 	</div>
 </section>
