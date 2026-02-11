@@ -1,14 +1,14 @@
 <!-- <div class="w-full h-12" style="background-color: #473BF0;"></div> -->
 <footer class="bg-gray-900 text-gray-100 py-12">
-	<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-5 gap-8 px-4 sm:px-6">
+	<div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 px-4 sm:px-6">
 		<!-- Brand -->
-		<div class="col-span-2 md:col-span-1 flex flex-col items-start">
+		<div class="col-span-2 md:col-span-4 lg:col-span-2 flex flex-col items-center sm:items-start">
 			<h3 class="text-white text-lg md:text-2xl font-bold mb-2">
 				<span class="text-blue-500">UNICAL IDID </span> hub
 			</h3>
-			<p class="text-left text-gray-300">
+			<p class="text-center sm:text-left text-gray-300">
 				Transforming education across Nigeria through innovative radio-powered digital learning that
-				reaches every student, everywhere.
+				<br /> reaches every student, everywhere.
 			</p>
 			<!-- svelte-ignore a11y_consider_explicit_label -->
 			<div class="flex gap-4 mt-4">
