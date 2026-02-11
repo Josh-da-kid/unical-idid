@@ -26,16 +26,18 @@
 	</div>
 
 	<div
-		class="text-xl text-start text-gray-500 flex flex-col gap-4 justify-center mx-auto place-self-center"
+		class="text-start text-gray-500 flex flex-col gap-4 justify-center mx-auto place-self-center"
 	>
-		<p>Your gateway to seamless digital identity and access management at UNICAL.</p>
+		<p class="text-lg sm:text-xl">
+			Your gateway to seamless digital identity and access management at UNICAL.
+		</p>
 
-		<p>
+		<p class="text-lg sm:text-xl">
 			We provide state-of-the-art solutions that ensure protected and intuitive access throughout
 			the campus.
 		</p>
 
-		<p>
+		<p class="text-lg sm:text-xl">
 			From secure biometric verification to real-time communication platforms, our services are
 			designed to enhance your academic experience and keep you connected with the university
 			community.
