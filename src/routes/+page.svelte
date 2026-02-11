@@ -52,15 +52,12 @@
 	<div class="relative z-10 flex h-full items-center justify-center px-6">
 		<div class="max-w-3xl text-center text-white space-y-6">
 			<h1 class="text-4xl md:text-5xl font-bold leading-tight">
-				Access Your Academic<br />
-				Journey Through One Unified<br />
-				Hub.
+				Your Academic Journey <br class="hidden md:block" /> Through <br /> One Unified Hub.
 			</h1>
 
-			<p class="text-base md:text-lg text-gray-200">
-				UNICAL Hub connects students, staff, and alumni to everything they need – from course
-				registration and results to accommodation, payments, and campus services. All in one place,
-				accessible anytime, anywhere.
+			<p class="text-lg md:text-2xl text-gray-200">
+				Skip the hassle, keep the hustle. UNICAL Hub puts registration, payments, and services in
+				your pocket. The entire university experience, now in one place.
 			</p>
 
 			<div
