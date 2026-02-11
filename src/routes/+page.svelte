@@ -42,17 +42,18 @@
 </script>
 
 <section
-	class="relative h-[calc(100vh-4rem)] bg-cover bg-center"
-	style="background-image: url('/images.jpeg');"
+	class="relative h-[calc(100vh-4rem)] bg-cover bg-center bg-no-repeat"
+	style="background-image: url('/bg.jpeg'); background-position: center center;"
 >
 	<!-- Dark overlay -->
-	<div class="absolute inset-0 bg-black/20"></div>
+	<div class="absolute inset-0 bg-black/50"></div>
 
 	<!-- Content -->
 	<div class="relative z-10 flex h-full items-center justify-center px-6">
 		<div class="max-w-3xl text-center text-white space-y-6">
-			<h1 class="text-4xl md:text-5xl font-bold leading-tight">
-				Your Academic Journey <br class="hidden md:block" /> Through <br /> One Unified Hub.
+			<h1 class="text-4xl md:text-5xl font-bold leading-tight flex flex-col mx-auto justify-center">
+				Your Academic Journey <br class="hidden md:block" /> <span class="sm:mt-3">Through</span>
+				<span class="sm:mt-3">One Unified Hub.</span>
 			</h1>
 
 			<p class="text-lg md:text-2xl text-gray-200">
